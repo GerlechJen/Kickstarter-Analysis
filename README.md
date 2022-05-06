@@ -1,13 +1,16 @@
 # An Analysis of Kickstarter Campaigns 
-Analysis was performed on Kickstarter data to discover trends in fundraising activities for different sectors in different countries. The data had over 4000 records. 
+Analysis was performed on Kickstarter data to discover trends in fundraising activities for different sectors in different countries.
+The data had over 4000 records. 
 After analyzing the data we realized certain factors influence the success of a fundraising campaign. 
-From the Outcomes Based on Launch Date Chart, campaigns started in the month of May had the highest success rate followed by June. December start months 
+From the Outcomes Based on Launch Date Chart below, 
+![chart1](https://github.com/GerlechJen/kickstarter-analysis/blob/main/Parent%20Category%20Chart.png)
+campaigns started in the month of May had the highest success rate followed by June. 
+December start months 
 had the least successful rate.
 January, June, July, and October had the highest as well similar number of failed campaigns launched.
 From the Parent Category Outcomes Chart below, 
-
-The theater is the most successful type of campaign.
 ![chart1](https://github.com/GerlechJen/kickstarter-analysis/blob/main/Parent%20Category%20Chart.png)
+It can be seen that the theater is the most successful type of campaign.
 Statistical analysis was further performed on plays in US. The results of the analysis showed that Failed Kickstarter fundraising campaigns had a higher average goal than successful Kickstarter campaigns. The average and median pledges for the failed campaigns 
 were also much lower than that of the successful campaigns. This implies that aside from the high goals set, there could be other factors that could be
 influencing people from pledging in the failed fundraising campaigns. To mirror succsssful campaigns it is recommended to set campaign goals around the average of the pledges.
