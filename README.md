@@ -8,7 +8,8 @@ December start months
 had the least successful rate.
 January, June, July, and October had the highest as well similar number of failed campaigns launched.
 
-  ![chart1](https://github.com/GerlechJen/kickstarter-analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
+  
+  ![Image1](https://github.com/GerlechJen/kickstarter-analysis/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
 
 
 From the Parent Category Outcomes Chart below, it can be seen that the theater is the most successful type of campaign.
