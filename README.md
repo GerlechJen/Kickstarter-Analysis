@@ -7,7 +7,7 @@ January, June, July, and October had the highest as well similar number of faile
 From the Parent Category Outcomes Chart below, 
 
 The theater is the most successful type of campaign.
-
+![chart1](https://github.com/GerlechJen/kickstarter-analysis/blob/main/Parent%20Category%20Chart.png)
 Statistical analysis was further performed on plays in US. The results of the analysis showed that Failed Kickstarter fundraising campaigns had a higher average goal than successful Kickstarter campaigns. The average and median pledges for the failed campaigns 
 were also much lower than that of the successful campaigns. This implies that aside from the high goals set, there could be other factors that could be
 influencing people from pledging in the failed fundraising campaigns. To mirror succsssful campaigns it is recommended to set campaign goals around the average of the pledges.
