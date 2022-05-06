@@ -23,11 +23,8 @@ influencing people from pledging in the failed fundraising campaigns.
 To mirror successful campaigns it is recommended to set campaign goals around the average of the pledges.
 For successful plays carried out in the US, the standard deviation of the goal and pledge were roughly twice the IQR while the standard deviation of the goal and pledge for the failed plays was almost three times the IQR. This implies that some of the failed kickstarters had really high goals.
 
-Does the length of a campaign have an influence?
 For the future musicals project in Great Britain, the estimated budget of 4000 is too high. From the box and whisker analysis, campaign goals have averaged around this same figure but the average pledge is below 2000. So you should estimate this project to be produced for around 2000 instead.
 
-Based on these findings I will recommend that the goal of your theater campaign be reduced to the average of similar campaign pledges and you should start the campaign in June. For successful Theatre campaigns, the average goal was around 46600 while the average pledge was around 12100. 
+For successful Theatre campaigns, the average goal was around 46600 while the average pledge was around 12100. Based on these findings I will recommend that the goal of your theater campaign be reduced to the average of similar campaign pledges and you should start the campaign in June.
 
-From the overall analysis done it cannot be concluded whether or not the length of a campaign has an effect on the outcome. There were campaigns that lasted for a short time yet were succcessful while longer campaigns were not successful and vice versa. 
-
-A shortcoming of this analysis is we are unable to tell whether the duration of a campaign has any effect on its success or failure. 
+A shortcoming of this analysis is we are unable to tell whether the duration of a campaign has any effect on its success or failure. From the overall analysis done, it cannot be concluded whether or not the length of a campaign has an effect on the outcome. There were campaigns that lasted for a short time yet were succcessful while longer campaigns were not successful and vice versa. 
