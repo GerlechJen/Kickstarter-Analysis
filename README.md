@@ -22,7 +22,7 @@ The final data obtained in the pivot table was then used to create the line char
 
 In performing analysis of outcomes based on goals, the objective was to be able to visualize the percentage of failed, successful and canceled plays based on the goal set for the campaign. A new sheet was created and labelled "Outcomes Based on Goals". Eight colums were created on this sheet with the following column headings: Goal,
 Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Canceled and Percentage Failed. The Goal column had dollar ranges to enable the analysis to be made based on goal amount.
-Using COUNTIFS() function, the "Number Successful", "Number Failed", and "Number Canceled" columns were filled by filtering on the Kickstarter "outcome" column, on the "Goal" amount column using the range of goals created , and on the "Subcategory" column using "plays" as the criteria. The total projects column was obtained using the sum function on the number of successful, failed, and canceled projects for each row.The percentage of successful, failed, and canceled projects were then calculated for each row. 
+Using COUNTIFS() function, the "Number Successful", "Number Failed", and "Number Canceled" columns were filled by filtering on the Kickstarter "outcome" column, on the goal-amount column using the range of goals created , and on the "Subcategory" column using "plays" as the criteria. The total projects column was obtained using the sum function on the number of successful, failed, and canceled projects for each row.The percentage of successful, failed, and canceled projects were then calculated for each row. 
 
 Based on the data in the table, the line chart below was created to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, or canceled projects.
 
@@ -30,17 +30,23 @@ Based on the data in the table, the line chart below was created to visualize th
  
 ### Challenges and Difficulties Encountered
 
+While performing the analysis some challenges encountered were:
+1. It was hard to detect when errors occured. Knowing the outcome expected in the table is what served as a guidance to know whether an error has been made in the calculations at all. To overcome this challenge I double-checked my work and compared my results with the expected results often.
+2. While using the countifs function, moving from sheet to sheet resulted in errors. To overcome this I remained on the main kickstarter sheet while selecting the different columns for accurate results.
+
 ## Results
 
-These are some conclusions that can be drawn from analyzing the "Theater Outcomes Based on Launch Date" chart :
+- These are some conclusions that can be drawn from analyzing the "Theater Outcomes Based on Launch Date" chart :
 1. The month of May had the highest number of successful outcomes with 111 successful campaigns making it the best and recommended month to launch a campaign.
 2. The month of December had the least number of successful campaigns with just 37 successful campaigns so as much as possible a campaign should not be launched in December. 
 
-From the "Outcomes Based on Goals" chart, it can be concluded that the goal set does not have any relationship with  the success or failure of the campaign. The number of canceled campaigns was 0 throughout so our conclusion will be based on the results for the failed and successful campaigns. When the goal started at less than $1,000 the success rate was 76% and it kept on decreasing with increase in goal till it got to a goal of $30000 to $34999 where it increased by 7%. It increased further by 60% for both $35000 to $39,999 and $40000 to $44999 goals. After that, it decreased once again to 0% for $45,000 to $49,999 goal and finally increased again to 13% for goal of $50000 or more. The opposite results can be seen when looking at the chart based on Percentage Failed. Therefore, for the Outcomes Based on Goals, it does not follow any specifi pattern and a specific relationship can not be associated between the goals set and the outcome. 
+- From the "Outcomes Based on Goals" chart, it can be concluded that the goal set does not have any relationship with  the success or failure of the campaign. The number of canceled campaigns was 0 throughout so our conclusion will be based on the results for the failed and successful campaigns. When the goal started at less than $1,000 the success rate was 76% and it kept on decreasing with increase in goal till it got to a goal of $30000 to $34999 where it increased by 7%. It increased further by 60% for both $35000 to $39,999 and $40000 to $44999 goals. After that, it decreased once again to 0% for $45,000 to $49,999 goal and finally increased again to 13% for goal of $50000 or more. The opposite results can be seen when looking at the chart based on Percentage Failed. 
 
-There were some limitations on the data set. Over 400 of the campaigns had 0 backers count and such campaigns had their outcomes classified as either "failed" or "canceled". The factors that influenced the type of classification assigned is unclear. Campaigns with 0 backers count should have had the same classification. This can affect the accuracy of our data.  
+  Therefore, for the Outcomes Based on Goals, it does not follow any specific pattern and a relationship cannot be established between the goals set and the outcome. 
 
-Some other possible tables and/or graphs could have been created for analysis. Some of them include::
+- There were some limitations on the data set. Over 400 of the campaigns had 0 backers count and such campaigns had their outcomes classified as either "failed" or "canceled". The factors that influenced the type of classification assigned is unclear. Campaigns with 0 backers count should have had the same classification. This can affect the accuracy of our data.  
+
+- Some other possible graphs could have been created for analysis. Some of them include:
 1. A graph to study if the duration of a fundraising campaign has an influence on the outcome.
 2. A graph to check whether backers count has an influence on the success or failure of a fundraising campaign. 
 
