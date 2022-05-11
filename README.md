@@ -12,16 +12,22 @@ The main purpose of this analysis is to find out how the goals set for campaigns
 
 ### Analysis of Outcomes Based on Launch Date
 
-![Image]( https://github.com/GerlechJen/kickstarter-analysis/blob/main/RESOURCES/Theater_Outcomes_vs_Launch.png)
+In performing analysis of outcomes based on launch date, a new column, "Years" was created from the "Date Created Conversion" column on the Kickstarter worksheet. A pivot table was then created from the Kickstarter worksheet onto a new sheet labeled "Theater Outcomes by Launch Date". The pivot table was filtered based on "Parent Category" and "Years". 'Outcomes' was placed in both the Columns and Values areas, and Date Created Conversion" was placed in the Rows. "Quarters" and "Years2" were auto-populated in the Rows field but they had to be removed so we can get the Row to show months of the year from January to December. The "Parent Category" was filtered to show only the data for "theater" and the "Column Labels" was sorted in descending order then filtered to show only "successful", "canceled" and "failed" outcomes. 
 
-In performing analysis of outcomes based on launch date, a new column, "Years" was created from the "date created conversion" column on the Kickstarter worksheet. A pivot table was then created from the Kickstarter worksheet. The pivot table was filtered based on "Parent Category" and "Years". Outcomes was placed in the column and values, was placed in the rows field and was placed in the values field. 
+The final data obtained in the pivot table was then used to create the line chart below to show the relationship between outcomes and launch month:
+
+![Image]( https://github.com/GerlechJen/kickstarter-analysis/blob/main/RESOURCES/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
+In performing analysis of outcomes based on goals, we wanted to be able to visualize the percentage of failed, successful and canceled plays based on the goal set for the campaign. A new sheet was created and labelled "Outcomes Based on Goals". Eight colums were created on this sheet with the following column headings Goal,
+Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Canceled and Percentage Failed.The Goal column had dollar ranges to enable the analysis to be made based on goal amount.
+Using COUNTIFS() function, the "Number Successful", "Number Failed", and "Number Canceled" columns were filled by filtering on the Kickstarter "outcome" column, on the "Goal" amount column using the range of goals created , and on the "Subcategory" column using "plays" as the criteria. The total projects column was obtained using the sum function on the number of successful, failed, and canceled projects for each row.The percentage of successful, failed, and canceled projects were then calculated for each row. 
+
+Based on the data in the table, the line chart below was created to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, or canceled projects.
+
 ![image1]( https://github.com/GerlechJen/kickstarter-analysis/blob/main/RESOURCES/Outcomes_vs_Goals.png)
-
-In performing analysis of outcomes based on goals, 
-
+ 
 ### Challenges and Difficulties Encountered
 
 ## Results
