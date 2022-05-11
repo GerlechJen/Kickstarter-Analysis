@@ -42,7 +42,7 @@ While performing the analysis some challenges encountered were:
 
 - From the "Outcomes Based on Goals" chart, it can be concluded that the goal set does not have any relationship with  the success or failure of the campaign. The number of canceled campaigns was 0 throughout so our conclusion will be based on the results for the failed and successful campaigns. When the goal started at less than $1,000 the success rate was 76% and it kept on decreasing with increase in goal till it got to a goal of $30000 to $34999 where it increased by 7%. It increased further by 60% for both $35000 to $39,999 and $40000 to $44999 goals. After that, it decreased once again to 0% for $45,000 to $49,999 goal and finally increased again to 13% for goal of $50000 or more. The opposite results can be seen when looking at the chart based on Percentage Failed. 
 
-  Therefore, for the Outcomes Based on Goals, it does not follow any specific pattern and a relationship cannot be established between the goals set and the outcome. 
+  Therefore, for the Outcomes Based on Goals, it does not follow any specific pattern and a relationship cannot be established between the goal set and the outcome. 
 
 - There were some limitations on the data set. Over 400 of the campaigns had 0 backers count and such campaigns had their outcomes classified as either "failed" or "canceled". The factors that influenced the type of classification assigned is unclear. Campaigns with 0 backers count should have had the same classification. This can affect the accuracy of our data.  
 
