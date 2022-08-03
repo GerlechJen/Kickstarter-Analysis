@@ -50,3 +50,9 @@ While performing the analysis some challenges encountered were:
 1. A graph to study if the duration of a fundraising campaign has an influence on the outcome.
 2. A graph to check whether backers count has an influence on the success or failure of a fundraising campaign. 
 
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
